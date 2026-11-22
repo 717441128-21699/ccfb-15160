@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GL 检测链路调试页</title>
+    <style>
+      body { font-family: monospace; padding: 16px; background: #0d1420; color: #cfe3ff; }
+      #log { white-space: pre-wrap; font-size: 12px; line-height: 1.5; }
+      canvas { border: 1px solid #335; margin: 6px; }
+    </style>
+  </head>
+  <body>
+    <h3>GL 检测链路调试（不经过视频编解码）</h3>
+    <canvas id="src" width="480" height="270"></canvas>
+    <div id="log">运行中…</div>
+    <script type="module" src="/debug/gl-main.ts"></script>
+  </body>
+</html>

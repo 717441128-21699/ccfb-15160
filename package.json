@@ -1,0 +1,20 @@
+{
+  "name": "parabola-tracker",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "高空抛物溯源分析工具（WebGL2 + TypeScript）",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.65.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vitest": "^3.0.4"
+  }
+}

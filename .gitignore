@@ -16,3 +16,8 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+dist/
+e2e-result.png
+e2e-fail.png
+probe-result.json
+*.local
