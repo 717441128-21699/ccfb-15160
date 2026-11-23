@@ -1,0 +1,19 @@
+{
+  "name": "hfthrow-analyzer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "高空抛物监控视频分析工具(楼栋标定 / WebGL2 检测 / 轨迹回溯 / 取证报告)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "tsx test/run-tests.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
